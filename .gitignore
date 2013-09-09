@@ -1,15 +1,37 @@
+# Extracted from https://github.com/ulrich/macaron-factory/blob/master/.gitignore
+# Ignore all dotfiles...
+.*
+# except for .gitignore
+!.gitignore
+
+# ingore stupid *~ temporary files
+*~
+
+# Ignore Play! working directory #
+bin
+data
+db
+dist
+eclipse
+lib
+log
 logs
+out
+modules
+precompiled
 project/project
 project/target
+#conf/evolutions*
 target
 tmp
+test-result
+server.pid
 .history
-dist
+*.iml
+*.eml
 /.idea
-/*.iml
-/out
 /.idea_modules
-/.classpath
-/.project
-/RUNNING_PID
 /.settings
+/.project
+/.classpath
+/RUNNING_PID
