@@ -13,7 +13,7 @@ public class Application extends Controller {
      * @return the index page.
      */
     public static Result index() {
-        return ok(index.render("Hello!"));
+        return ok(index.render());
     }
 
     /**

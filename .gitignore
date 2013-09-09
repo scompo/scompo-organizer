@@ -21,7 +21,7 @@ modules
 precompiled
 project/project
 project/target
-#conf/evolutions*
+conf/evolutions*
 target
 tmp
 test-result
